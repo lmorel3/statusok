@@ -13,8 +13,9 @@ type NotificationTypes struct {
 	MailNotify MailNotify      `json:"mail"`
 	Mailgun    MailgunNotify   `json:"mailGun"`
 	Slack      SlackNotify     `json:"slack"`
+	Telegram   TelegramNotify  `json:"telegram"`
 	Http       HttpNotify      `json:"httpEndPoint"`
-	Dingding   DingdingNotify  `json:"dingding"`
+	//Dingding   DingdingNotify  `json:"dingding"`
 	Pagerduty  PagerdutyNotify `json:"pagerduty"`
 }
 
